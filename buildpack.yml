@@ -1,0 +1,5 @@
+---
+dicf_nginx_buildpack_1111_cflinuxfs3:
+  version: 1.18.0
+  plaintext_env_vars:
+    - "OVERRIDE"

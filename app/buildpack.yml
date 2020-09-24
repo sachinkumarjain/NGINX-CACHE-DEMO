@@ -1,0 +1,5 @@
+---
+nginx:
+  version: 1.18.0
+  plaintext_env_vars:
+    - "OVERRIDE"

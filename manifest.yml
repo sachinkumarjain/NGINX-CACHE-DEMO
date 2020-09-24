@@ -1,0 +1,19 @@
+---
+applications:
+- name: nginx-demo
+  path: app
+  no-route: false
+  no-start: false
+  memory: 1G
+  disk_quota: 1G
+  instances: 1
+  stack: cflinuxfs3
+  buildpacks: 
+  - dicf_staticfile_buildpack_159_cflinuxfs3
+  - dicf_nginx_buildpack_1111_cflinuxfs3
+  health-check-type: process
+  env:
+    Service_Environment: dev
+    CACHE_NUGET_PACKAGES: false
+
+  
