@@ -4,8 +4,8 @@ NGINX-CACHE-DEMO with PCF for static file and caching
 cf login -a pcf-url -o org -s space -u user
 cf push
 
-https://nginx-demo.ausvdc02.pcf.dell.com/var/www/locale.xml - caching
-https://nginx-demo.ausvdc02.pcf.dell.com/index.html - no-cache
+* https://nginx-demo.ausvdc02.pcf.dell.com/var/www/locale.xml - caching
+* https://nginx-demo.ausvdc02.pcf.dell.com/index.html - no-cache
 
 ----------------------------------------------------------------------
 nginx.conf [https://www.nginx.com/resources/wiki/start/topics/examples/full/#nginx-conf]
